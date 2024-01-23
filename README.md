@@ -30,14 +30,4 @@ query{
   }
 }
 
-3. Create User with mutation operation
-
-mutation{
-  createUser(firstName:"sachin",lastName:"purohit",email:"sachin@sachin.com",password:"password"){
-    id
-    firstName
-    lastName
-    email
-  }
-}
 
